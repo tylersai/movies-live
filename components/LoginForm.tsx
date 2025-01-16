@@ -54,7 +54,7 @@ export function LoginForm(props: PaperProps) {
   };
 
   return (
-    <Paper radius="md" p="xl" withBorder {...props}>
+    <Paper radius="md" p="xl" mt={32} withBorder {...props}>
       <Text size="lg" fw={500} mb={12}>
         Welcome to <Link href="/">Mv.</Link>
       </Text>
